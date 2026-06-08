@@ -1,9 +1,11 @@
-# DecodeLabs Data Analytics Industrial Training Portfolio
+# E-Commerce Sales Data Analysis
 
-🚀 **Data Analytics Internship Submission Hub | Batch: 2026** **Author:** Disha Chatterjee  
-**Institution:** Sister Nivedita University (B.Sc. Statistics)
+🚀 **An End-to-End Statistical Data Cleaning & Relational Analytics Framework**
 
-This repository contains the complete diagnostic frameworks, data sanitation pipelines, financial models, and relational database codebases engineered during the **DecodeLabs** Industrial Training Program. The portfolio demonstrates an end-to-end analytics workflow: from scrubbing raw, volatile records to deploying active dashboards and executing advanced database queries.
+**Project Lead:** Disha Chatterjee  
+**Academic Affiliation:** Sister Nivedita University (B.Sc. Statistics, Year: 3rd)
+
+This repository serves as a professional portfolio documenting an end-to-end data analytics system. The core objective of this project was to apply mathematical data sanitation, exploratory data analysis (EDA), and relational database querying to a volatile transactional dataset containing 1,200 unique observations, establishing a clean, statistically sound framework for business intelligence.
 
 ---
 
@@ -11,13 +13,13 @@ This repository contains the complete diagnostic frameworks, data sanitation pip
 
 ```text
 ├── cleaned_data.xlsx - Sheet1.csv      # Unified transaction log foundation (1,200 unique records)
-├── Revised_Enterprise_Analytics_Data_V2.xlsx # Project 2: Active Excel Dashboard & Narrative Matrix
-├── online_sql_queries.sql          # Project 3: Automated Database Schema & Batch Insert Scripts & Production Analytical SQL Queries
+├── Revised_Enterprise_Analytics_Data_V2.xlsx # Exploratory Data Analysis
+├── online_sql_queries.sql          # Batch Insert Scripts & Production Analytical SQL Queries
 └── README.md                           # Comprehensive Internship Portfolio Documentation (This File)
 
 ```
 
-🧹 **Project 1: Data Cleaning & Preparation**
+🧹 **Task 1: Data Cleaning & Preparation**
 
 **Objective:**
 To establish data integrity by taking an unrefined, messy transactional matrix and scrubbing it into a single, reliable "Source of Truth." The phase focused on mitigating formatting errors, resolving null values, and systematically eradicating record duplication.
@@ -32,7 +34,7 @@ To establish data integrity by taking an unrefined, messy transactional matrix a
 
 4.Numeric Normalization: Locked financial metrics down to an absolute float standard of exactly 2 decimal places.
 
-📊 **Project 2: Exploratory Data Analysis (EDA Framework)**
+📊 **Task 2: Exploratory Data Analysis (EDA Framework)**
 
 **Objective:**
 To transform the newly sanitized dataset into an executive reporting layout by applying statistical center-of-gravity calculations, identifying structural distribution behavior, and tracking out-of-bounds anomalies.
@@ -56,10 +58,12 @@ Conditional Cross-Tabulations: Populated category blocks and customer acquisitio
 **Strategic Business Observations**
 
 Geometric Distribution Skew: The baseline mean ($1,053.97) stands pulled away from the center median ($823.62), confirming a distinctive positive (right) data distribution skew driven by corporate bulk buys.
+
 Product Pipeline Engines: Chairs ($195,620.11) and Printers ($195,612.61) perform as identical high-velocity transaction leaders, while Laptops lock in the highest standalone average ticket margin value ($1,110.56 per checkout).
+
 Conversion Pipelines: Instagram represents the primary visual acquisition source ($275,285.45 across 259 placements) with direct Email campaigns serving as the second most efficient converter ($261,808.55).
 
-**🔑 Project 3: Relational SQL Data Analysis**
+**🔑 Task 3: Relational SQL Data Analysis**
 
 **Objective:**
 To scale past spreadsheet processing limitations by translating our transactional data into a relational database workspace, running core aggregates, and constructing filtered performance data grids via browser-based online compilers.
